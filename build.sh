@@ -14,7 +14,7 @@ function build_kernel {
     variant=$1
     case $variant in
         stoney)
-      stoney_ver=6.4.3
+      stoney_ver=6.4.4
 	    arch=x86_64
 
 	    # Install amdgpu firmware
