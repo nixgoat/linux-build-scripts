@@ -6,7 +6,7 @@ kernel_config_dir=$PWD/config
 source_dir=$PWD/source
 build_dir=$PWD/build
 
-kernel_version="6.4.6"
+kernel_version="6.4.7"
 tarball_url="https://cdn.kernel.org/pub/linux/kernel/v${kernel_version:0:1}.x/linux-${kernel_version}.tar.xz"
 tarball_name="$(echo $tarball_url | cut -f 8 -d '/')"
 
