@@ -7,7 +7,7 @@ source_dir=$PWD/source
 build_dir=$PWD/build
 patches_dir=$PWD/patches
 
-kernel_version="6.4.8"
+kernel_version="6.4.9"
 tarball_url="https://cdn.kernel.org/pub/linux/kernel/v${kernel_version:0:1}.x/linux-${kernel_version}.tar.xz"
 tarball_name="$(echo $tarball_url | cut -f 8 -d '/')"
 
